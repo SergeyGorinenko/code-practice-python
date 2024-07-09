@@ -46,19 +46,22 @@ class TwoSum(object):
 
             prevMap[num] = index
 
+    @staticmethod
+    def test():
+        print(f'===< TwoSum >===-----------------------')
+        instance = TwoSum()
 
-instance = TwoSum()
-nums1 = [2,7,11,15]
-target1 = 9
-result1 = instance.twoSum(nums1, target1)
-print(f'{nums1}: {sorted(result1)}')
+        nums1 = [2,7,11,15]
+        target1 = 9
+        result1 = instance.twoSum(nums1, target1)
+        print(f'{nums1}: {sorted(result1)}')
 
-nums2 = [3,2,4]
-target2 = 6
-result2 = instance.twoSum(nums2, target2)
-print(f'{nums2}: {sorted(result2)}')
+        nums2 = [3,2,4]
+        target2 = 6
+        result2 = instance.twoSum(nums2, target2)
+        print(f'{nums2}: {sorted(result2)}')
 
-nums3 = [3,3]
-target3 = 6
-result3 = instance.twoSum(nums3, target3)
-print(f'{nums3}: {sorted(result3)}')
+        nums3 = [3,3]
+        target3 = 6
+        result3 = instance.twoSum(nums3, target3)
+        print(f'{nums3}: {sorted(result3)}')

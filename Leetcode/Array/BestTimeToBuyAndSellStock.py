@@ -39,12 +39,15 @@ class BestTimeToBuyAndSellStock(object):
                     profit = price - minPrice
         return profit
 
-instance = BestTimeToBuyAndSellStock()
+    @staticmethod
+    def test():
+        print(f'===< BestTimeToBuyAndSellStock >===-----------------------')
+        instance = BestTimeToBuyAndSellStock()
 
-nums1 = [7,1,5,3,6,4]
-result1 = instance.maxProfit(nums1)
-print(f'{nums1}: {result1}')
+        nums1 = [7,1,5,3,6,4]
+        result1 = instance.maxProfit(nums1)
+        print(f'{nums1}: {result1}')
 
-nums2 = [7,6,4,3,1]
-result2 = instance.maxProfit(nums2)
-print(f'{nums2}: {result2}')
+        nums2 = [7,6,4,3,1]
+        result2 = instance.maxProfit(nums2)
+        print(f'{nums2}: {result2}')
