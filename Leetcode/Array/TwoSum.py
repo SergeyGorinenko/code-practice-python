@@ -46,8 +46,8 @@ class TwoSum(object):
 
             prevMap[num] = index
 
-instance = TwoSum()
 
+instance = TwoSum()
 nums1 = [2,7,11,15]
 target1 = 9
 result1 = instance.twoSum(nums1, target1)
