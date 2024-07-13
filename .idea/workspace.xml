@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7a11682-7d5b-4f7c-be82-6ae8361964f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Leetcode/Array/ContainsDuplicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/Array/ProductOfArrayExceptSelf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/Array/BestTimeToBuyAndSellStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/Array/BestTimeToBuyAndSellStock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/Array/TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/Array/TwoSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,7 @@
   "keyToString": {
     "Python.BestTimeToBuyAndSellStock.executor": "Run",
     "Python.ContainsDuplicate.executor": "Run",
+    "Python.ProductOfArrayExceptSelf.executor": "Run",
     "Python.main.executor": "Run",
     "Python.twoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
